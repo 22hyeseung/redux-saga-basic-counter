@@ -1,11 +1,9 @@
 import * as type from 'actions/types';
 
-export const increment = number => ({
+export const increment = () => ({
   type: type.INCREMENT,
-  payload: number,
 });
 
-export const decrement = number => ({
+export const decrement = () => ({
   type: type.DECREMENT,
-  payload: number,
 });

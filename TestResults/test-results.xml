@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f8c8673c-1fab-426c-88c6-b7426b2deb41" name="ihyeseung@ihyeseung-ui-MacBook-Pro-2.local 2018-02-15T06:10:08.617Z" runUser="ihyeseung" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Jest test run" id="3cd3c492-9027-4cf6-92d6-efc172c7e439"/>
+  <Times creation="2018-02-15T06:10:08.617Z" queuing="2018-02-15T06:10:08.617Z" start="2018-02-15T06:10:08.617Z"/>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" passed="0" failed="1" error="0"/>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="renders without crashing" id="0e28e31c-8b1b-4f1a-a26c-e9f343f96300">
+      <Execution id="7cbe5cb7-701c-4b24-828d-50f231666ec8"/>
+      <TestMethod codeBase="Jest_renders without crashing" name="renders without crashing" className="No suite"/>
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda"/>
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0e28e31c-8b1b-4f1a-a26c-e9f343f96300" executionId="7cbe5cb7-701c-4b24-828d-50f231666ec8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d"/>
+  </TestEntries>
+  <Results>
+    <UnitTestResult testId="0e28e31c-8b1b-4f1a-a26c-e9f343f96300" executionId="7cbe5cb7-701c-4b24-828d-50f231666ec8" testName="renders without crashing" computerName="ihyeseung-ui-MacBook-Pro-2.local" duration="00:00:00.541" startTime="2018-02-15T06:10:09.825Z" endTime="2018-02-15T06:10:10.366Z" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Invariant Violation: Could not find "store" in either the context or props of "Connect(App)". Either wrap the root component in a &lt;Provider&gt;, or explicitly pass "store" as a prop to "Connect(App)".
+    at invariant (/Users/ihyeseung/TIL/redux-saga/node_modules/invariant/invariant.js:42:15)
+    at new Connect (/Users/ihyeseung/TIL/redux-saga/node_modules/react-redux/lib/components/connectAdvanced.js:134:33)
+    at constructClassInstance (/Users/ihyeseung/TIL/redux-saga/node_modules/react-dom/cjs/react-dom.development.js:6355:20)
+    at updateClassComponent (/Users/ihyeseung/TIL/redux-saga/node_modules/react-dom/cjs/react-dom.development.js:7839:9)
+    at beginWork (/Users/ihyeseung/TIL/redux-saga/node_modules/react-dom/cjs/react-dom.development.js:8225:16)
+    at performUnitOfWork (/Users/ihyeseung/TIL/redux-saga/node_modules/react-dom/cjs/react-dom.development.js:10224:16)
+    at workLoop (/Users/ihyeseung/TIL/redux-saga/node_modules/react-dom/cjs/react-dom.development.js:10288:26)
+    at HTMLUnknownElement.callCallback (/Users/ihyeseung/TIL/redux-saga/node_modules/react-dom/cjs/react-dom.development.js:542:14)
+    at invokeEventListeners (/Users/ihyeseung/TIL/redux-saga/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:219:27)
+    at HTMLUnknownElementImpl._dispatch (/Users/ihyeseung/TIL/redux-saga/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:126:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/ihyeseung/TIL/redux-saga/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:87:17)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/ihyeseung/TIL/redux-saga/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:36:27)
+    at HTMLUnknownElement.dispatchEvent (/Users/ihyeseung/TIL/redux-saga/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:61:35)
+    at Object.invokeGuardedCallbackDev (/Users/ihyeseung/TIL/redux-saga/node_modules/react-dom/cjs/react-dom.development.js:581:16)
+    at invokeGuardedCallback (/Users/ihyeseung/TIL/redux-saga/node_modules/react-dom/cjs/react-dom.development.js:438:27)
+    at renderRoot (/Users/ihyeseung/TIL/redux-saga/node_modules/react-dom/cjs/react-dom.development.js:10366:7)
+    at performWorkOnRoot (/Users/ihyeseung/TIL/redux-saga/node_modules/react-dom/cjs/react-dom.development.js:11014:24)
+    at performWork (/Users/ihyeseung/TIL/redux-saga/node_modules/react-dom/cjs/react-dom.development.js:10967:7)
+    at requestWork (/Users/ihyeseung/TIL/redux-saga/node_modules/react-dom/cjs/react-dom.development.js:10878:7)
+    at scheduleWorkImpl (/Users/ihyeseung/TIL/redux-saga/node_modules/react-dom/cjs/react-dom.development.js:10732:11)
+    at scheduleWork (/Users/ihyeseung/TIL/redux-saga/node_modules/react-dom/cjs/react-dom.development.js:10689:12)
+    at scheduleTopLevelUpdate (/Users/ihyeseung/TIL/redux-saga/node_modules/react-dom/cjs/react-dom.development.js:11193:5)
+    at Object.updateContainer (/Users/ihyeseung/TIL/redux-saga/node_modules/react-dom/cjs/react-dom.development.js:11231:7)
+    at /Users/ihyeseung/TIL/redux-saga/node_modules/react-dom/cjs/react-dom.development.js:15226:19
+    at Object.unbatchedUpdates (/Users/ihyeseung/TIL/redux-saga/node_modules/react-dom/cjs/react-dom.development.js:11102:12)
+    at renderSubtreeIntoContainer (/Users/ihyeseung/TIL/redux-saga/node_modules/react-dom/cjs/react-dom.development.js:15225:17)
+    at Object.render (/Users/ihyeseung/TIL/redux-saga/node_modules/react-dom/cjs/react-dom.development.js:15290:12)
+    at Object.&lt;anonymous&gt;.it (/Users/ihyeseung/TIL/redux-saga/src/test/App.test.js:7:22)
+    at Object.asyncFn (/Users/ihyeseung/TIL/redux-saga/node_modules/jest-jasmine2/build/jasmine-async.js:68:30)
+    at e (/Users/ihyeseung/TIL/redux-saga/node_modules/jest-jasmine2/build/queueRunner.js:38:12)
+    at mapper (/Users/ihyeseung/TIL/redux-saga/node_modules/jest-jasmine2/build/queueRunner.js:31:21)
+    at Promise.resolve.then.el (/Users/ihyeseung/TIL/redux-saga/node_modules/p-map/index.js:46:16)
+    at process._tickCallback (internal/process/next_tick.js:103:7)</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
